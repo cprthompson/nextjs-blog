@@ -35,7 +35,7 @@ export default function Home({
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                <Date theDate={date} />
               </small>
             </li>
           ))}
